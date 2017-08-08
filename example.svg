@@ -1,0 +1,30 @@
+<!--
+	第一行是xml声明。standalone属性标识本svg文件是否独立，“no”标识有外部引用，此处为dtd文件
+-->
+<?xml version="1.0" standalone="no"?>
+
+<!--
+	下面两行引用外部文件svg11.dtd包含所有w3c支持的svg标签
+-->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<!--
+	svg代码以<svg>标签开始，以</svg>结束，是根元素。
+	width、height设置svg文档宽高，version标识svg版本，
+	xmlns标识命名空间
+-->
+<svg width="100%" height="100%" version="1.1"
+xmlns="http://www.w3.org/2000/svg">
+
+	<!--
+		这里是具体绘制代码，可以是一个圆，也可以是其他
+	-->
+	<circle cx="100" cy="50" r="40" stroke="black"
+	stroke-width="2" fill="red"/>
+
+</svg>
+
+<!--
+	svg标签可以通过<embed>、<object> 或者 <iframe>嵌入html文件
+-->

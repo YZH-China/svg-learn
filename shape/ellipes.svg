@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="400">
+  <!--
+    确定一个椭圆需要
+      rx：x轴半径
+      ry：y轴半径
+      cx、cy：确定圆心
+  -->
+  <ellipse rx="200" ry="80" cx="300" cy="150"
+    style="fill:rgb(200, 100, 50);stroke:rgb(0, 0, 100);stroke-width:3"
+  />
+</svg>

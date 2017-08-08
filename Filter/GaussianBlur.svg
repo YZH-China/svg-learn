@@ -1,0 +1,13 @@
+<svg width="650" height="700" xmlns="http://www.w3.org/2000/svg">
+  <!--
+    必须在<defs>标签中定义svg滤镜
+  -->
+  <defs>
+    <filter id="Gaussian_Blur">
+       <feGaussianBlur in="SourceGraphic" stdDeviation="10" /> 
+    </filter>
+  </defs>
+  <ellipse rx="200" ry="80" cx="300" cy="200"
+    style="fill:red;filter:url(#Gaussian_Blur)"
+  />
+</svg>

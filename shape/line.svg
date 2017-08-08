@@ -1,0 +1,10 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!--
+    确定一条直线需要 
+      x1、y1：起始点坐标
+      x2、y2：结束点坐标
+  -->
+  <line x1="100" y1="50" x2="200" y2="150"
+    stroke="blue" stroke-width="3"
+  >
+</svg>

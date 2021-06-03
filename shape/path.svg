@@ -30,5 +30,7 @@
   C186 384 211 361 211 334
   C211 300 186 274 156 274"
   style="fill:white;stroke:red;stroke-width:2"/>
+
+  <path d="M50 50 C100 50 100 150 150 150" style="fill:transparent;stroke:blue;stroke-width:2;"></path>
   
 </svg>
